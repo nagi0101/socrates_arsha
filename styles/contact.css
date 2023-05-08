@@ -130,10 +130,10 @@ table {
 
 /*-----이상 RESET css-----*/
 
-/*-----이하 contact-----*/
+/*-----이하 contact css-----*/
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #contact {
@@ -166,10 +166,6 @@ table {
   margin-right: 40px;
 }
 
-.faq_background {
-  background-color: #f3f5fa;
-}
-
 .section_title h2::before {
   content: "";
   position: absolute;
@@ -200,4 +196,61 @@ table {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   color: #444444;
+  font-size: 1.1rem;
+}
+
+.row {
+  width: 1320px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ourinfo {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+.yourinfo {
+  flex: 0 0 auto;
+  width: 58.33333333%;
+}
+
+label {
+  display: block;
+  padding-bottom: 8px;
+}
+input {
+  display: block;
+  height: 44px;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.name_and_email {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  margin: 12px;
+}
+
+#name-box {
+  width: 350px;
+}
+
+#email-box {
+  width: 350px;
+}
+
+#subject-box {
+  width: 750px;
+}
+
+#message-box {
+  width: 750px;
+}
+
+.ourinfo .i {
+  font-size: 20px;
 }

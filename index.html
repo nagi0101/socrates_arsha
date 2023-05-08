@@ -5,33 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Socrates Arsha</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <script src="https://kit.fontawesome.com/9ada8679dc.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/9ada8679dc.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
     <header id="header">
-        <i class="fa-solid fa-music"></i>
-        <img src="./images/image-solid.svg" alt="preview" width="16px">
+      <i class="fa-solid fa-music"></i>
+      <img src="./images/image-solid.svg" alt="preview" width="16px" />
     </header>
     <section id="hero">
-        <div class="container">
-            <div class="col text-container">
-                <h2>Better Solutions For Your Business</h2>
-                <h3>We are team of talented designers making websites with Bootstrap</h3>
-                <div class="btn-container">
-                    <a href="#about">Get Started</a>
-                    <a href="#">
-                        <i class="fa-sharp fa-regular fa-circle-play"></i>
-                        <span>Watch Video</span>
-                    </a>
-                </div>
-            </div>
-            <div class="col image-wrapper">
-                <img src="./images/hero-img.png" alt="hero">
-            </div>
+      <div class="container">
+        <div class="col text-container">
+          <h2>Better Solutions For Your Business</h2>
+          <h3>
+            We are team of talented designers making websites with Bootstrap
+          </h3>
+          <div class="btn-container">
+            <a href="#about">Get Started</a>
+            <a href="#">
+              <i class="fa-sharp fa-regular fa-circle-play"></i>
+              <span>Watch Video</span>
+            </a>
+          </div>
         </div>
+        <div class="col image-wrapper">
+          <img src="./images/hero-img.png" alt="hero" />
+        </div>
+      </div>
     </section>
     <main>
+      <!-- 이하 FAQ -->
       <section id="faq" class="faq_background">
         <div class="faq_container"></div>
         <div class="section_title">
@@ -127,10 +132,71 @@
           </div>
         </div>
       </section>
+      <!-- 이상 FAQ -->
 
-      <section id="contact">
-        
+      <!-- 이하 CONTACT -->
+
+      <section id="contact" class="contact">
+        <div class="contact_container"></div>
+        <div class="section_title">
+          <h2>Contact</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+            fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </div>
+        <div class="row">
+          <div class="ourinfo">
+            <div class="address">
+              <div>
+                <i class="fa-regular fa-map" style="font-size: 40px"></i
+                >Location:
+              </div>
+              <div>A108 Adam Street, New York, NY 535022</div>
+            </div>
+            <div class="email">
+              <div><i class="fa-regular fa-envelope"></i>Email:</div>
+              <div>info@example.com</div>
+            </div>
+
+            <div class="phone">
+              <div><i class="fa-regular fa-mobile-button"></i>Call:</div>
+              <div>+1 5589 55488 55s</div>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+              frameborder="0"
+              style="border: 0; width: 100%; height: 290px"
+              allowfullscreen></iframe>
+          </div>
+          <div class="yourinfo">
+            <div class="name_and_email">
+              <div class="box">
+                <label for="name-box">Your Name</label>
+                <input type="text" id="name-box" name="name" />
+              </div>
+              <div class="box">
+                <label for="email-box">Your Email</label>
+                <input type="text" id="email-box" name="email" />
+              </div>
+            </div>
+
+            <div class="box">
+              <label for="subject-box">Subject</label>
+              <input type="text" id="subject-box" name="subject" />
+            </div>
+
+            <div class="box">
+              <label for="message-box">Message</label>
+              <input type="text" id="message-box" name="message" />
+            </div>
+          </div>
+        </div>
       </section>
+
+      <!-- 이상 CONTACT -->
     </main>
     <footer id="footer"></footer>
   </body>
