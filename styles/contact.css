@@ -200,18 +200,35 @@ table {
 }
 
 .row {
-  width: 1320px;
+  /* width: 1320px; */
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .ourinfo {
   flex: 0 0 auto;
+  flex-basis: 50%;
   width: 41.66666667%;
+  /* padding-right: 1.5rem * 0.5;
+  padding-left: 1.5rem * 0.5; */
+  padding: 30px;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  border-top: solid #47b2e4 2px;
+  border-bottom: solid #47b2e4 2px;
+  margin-right: 5px;
 }
 .yourinfo {
   flex: 0 0 auto;
+  justify-content: space-between;
+  flex-basis: 50%;
   width: 58.33333333%;
+  padding: 30px;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  border-top: solid #47b2e4 2px;
+  border-bottom: solid #47b2e4 2px;
+  margin-left: 5px;
 }
 
 label {
@@ -236,21 +253,101 @@ input {
 }
 
 #name-box {
-  width: 350px;
+  flex-grow: 1;
+  display: block;
+  width: 325px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
 }
 
 #email-box {
-  width: 350px;
+  flex-grow: 1;
+  display: block;
+  width: 325px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
 }
 
 #subject-box {
-  width: 750px;
+  flex-grow: 1;
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
 }
 
 #message-box {
-  width: 750px;
+  flex-grow: 1;
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
 }
 
-.ourinfo .i {
+.ourinfo i {
   font-size: 20px;
+  color: #47b2e4;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #e7f5fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.ourinfo h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #37517e;
+}
+
+.ourinfo p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #6182ba;
+}
+
+.yourinfo label {
+  padding-bottom: 8px;
+}
+
+.sendbox {
+  margin-top: 3rem;
+
+  display: flex;
+  justify-content: center;
+}
+.sendbox button {
+  font-size: 20px;
+  background: #47b2e4;
+  border: 0;
+  padding: 12px 34px;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
 }
