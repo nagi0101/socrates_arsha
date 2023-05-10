@@ -1,0 +1,32 @@
+#cta {
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(./cta-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 75px 30px;
+    
+}
+
+#cta .gll{
+    flex: 0 0 auto;
+    width: 73%;
+
+}
+
+#cta .title{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+#cta .duis{
+    color: #fff;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 10px;
+}
