@@ -1,5 +1,6 @@
 #faq {
   padding: 60px;
+  background-color: #f3f5fa;
 }
 
 .faq_list {
@@ -26,10 +27,6 @@
   text-align: center;
   margin-left: 40px;
   margin-right: 40px;
-}
-
-.faq_background {
-  background-color: #f3f5fa;
 }
 
 .section_title h2::before {

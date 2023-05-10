@@ -1,24 +1,28 @@
 #cta {
-    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(./cta-bg.jpg) fixed center center;
+    background:
+        linear-gradient(
+        rgba(40, 58, 90, 0.9),
+        rgba(40, 58, 90, 0.8)
+        ),
+        url("../images/cta-bg.jpg") fixed center center;
     background-size: cover;
     padding: 75px 30px;
-    
 }
 
-#cta .gll{
+#cta .text_container {
     flex: 0 0 auto;
     width: 73%;
 
 }
 
-#cta .title{
+#cta h2 {
     color: #fff;
     font-size: 23px;
     font-weight: 700;
     margin: 10px;
 }
 
-#cta .duis{
+#cta p {
     color: #fff;
     font-size: 13px;
     margin-top: 0;
