@@ -1,17 +1,10 @@
-
 #services {
     padding: 30px 50px;
     overflow: hidden;
     background-color: #f3f5fa;
-    box-sizing: border-box;
-    display: block;
-    margin: 0;   
 }
 
-
-
-
-#services .title{
+#services .title {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
@@ -24,16 +17,11 @@
     text-align: center;
 }
 
-
-#services .mag{
+#services > p {
     color: #444444;
-    font-size: 15px;   
-    margin-top: 0;
-    display: block;
+    font-size: 15px;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     text-align: center;
 }
 
@@ -59,19 +47,14 @@
     left: calc(50% - 60px);
 }
 
-
 #services .box {
     transform: translateY(-10px);
     box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-    padding: 30px 20px ;
+    padding: 30px 20px;
     margin: 10px;
     transition: all ease-in-out 0.4s;
     background: #fff;
-    box-sizing: border-box;
-    display: block;
-    position: relative;
 }
-
 
 #services .box:hover {
     background-color: rgb(255, 255, 255);
@@ -82,11 +65,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10;
 }
 
-
-#services .lsmn{
+#services .box h3 {
     color: #37517e;
     font-weight: 500;
     margin-bottom: 15px;
@@ -95,20 +76,18 @@
     font-family: "Jost", sans-serif;
 }
 
-#services .lsmn:hover {
+#services .box h3:hover {
     color: #47b2e4;
 }
 
-#services .vdea{
+#services .box p {
     color: #000000;
     font-weight: 500;
     font-size: 13px;
     font-family: "Jost", sans-serif;
 }
 
-#services .pic{
+#services .pic {
     color: #47b2e4;
     font-size: 25px;
 }
-
-

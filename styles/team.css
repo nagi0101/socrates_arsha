@@ -15,30 +15,30 @@
 }
 
 #team .member .pic img {
-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
 }
 
 #team .member:hover {
-transform: translateY(-10px);
+    transform: translateY(-10px);
 }
-  
+
 #team .member .member-info {
-padding-left: 30px;
+    padding-left: 30px;
 }
 
 #team .member h4 {
-font-weight: 700;
-margin-bottom: 5px;
-font-size: 20px;
-color: #37517e;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #37517e;
 }
-  
+
 #team .member span {
-display: block;
-font-size: 15px;
-padding-bottom: 10px;
-position: relative;
-font-weight: 500;
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
 }
 
 #team .member span::after {
@@ -78,34 +78,36 @@ font-weight: 500;
     font-size: 16px;
     margin: 0 2px;
 }
-  
+
 #team .member .social a:hover {
     background: #47b2e4;
 }
-  
+
 #team .member .social a:hover i {
     color: #fff;
 }
 
-#team .team-row{
+#team .team-row {
     display: flex;
     flex-wrap: wrap;
     gap: 2%;
 }
 
-#team .member{
+#team .member {
     min-height: 150px;
     flex-basis: 23%;
     flex-shrink: 1;
     flex-grow: 1;
 }
-@media screen and (max-width:992px){
-    #team .member{
+
+@media screen and (max-width:992px) {
+    #team .member {
         flex-basis: 48%;
     }
 }
-@media screen and (max-width:600px){
-    #team .member{
+
+@media screen and (max-width:600px) {
+    #team .member {
         flex-basis: 100%;
     }
 }
