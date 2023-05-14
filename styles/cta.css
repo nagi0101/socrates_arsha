@@ -6,13 +6,14 @@
         ),
         url("../images/cta-bg.jpg") fixed center center;
     background-size: cover;
-    padding: 75px 30px;
+    padding: 75px 30px 30px 30px;
 }
 
 #cta .text_container {
     flex: 0 0 auto;
     width: 73%;
-
+    align-items: center;
+    
 }
 
 #cta h2 {
@@ -24,7 +25,7 @@
 
 #cta p {
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 0;
     margin-bottom: 1rem;
     display: block;
@@ -33,4 +34,23 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     margin: 10px;
+}
+
+#cta .button {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+#cta .button:hover {
+    background: #47b2e4;
+    border: 2px solid #47b2e4;
 }
