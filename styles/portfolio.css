@@ -1,6 +1,7 @@
 .portfolio #portfolio-filters {
     list-style: none;
     margin-bottom: 20px;
+    text-align: center;
   }
 
 .portfolio #portfolio-filters li {

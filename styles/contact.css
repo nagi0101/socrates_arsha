@@ -1,5 +1,6 @@
 #contact {
-  padding: 60px;
+  padding: 30px;
+  overflow: auto;
 }
 
 #contact .section_title h2 {
@@ -65,15 +66,13 @@
 }
 
 #contact .ourinfo {
-  flex: 0 0 auto;
-  flex-basis: 50%;
-  width: 41.66666667%;
+  flex-grow: 2;
   padding: 30px;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
   border-top: solid #47b2e4 2px;
   border-bottom: solid #47b2e4 2px;
   margin-right: 5px;
-}
+  }
 
 #contact .ourinfo .address i {
   font-size: 20px;
@@ -81,16 +80,14 @@
 }
 
 #contact .yourinfo {
-  flex: 0 0 auto;
+  flex-grow: 1;
   justify-content: space-between;
-  flex-basis: 50%;
-  width: 58.33333333%;
   padding: 30px;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
   border-top: solid #47b2e4 2px;
   border-bottom: solid #47b2e4 2px;
   margin-left: 5px;
-}
+  }
 
 #contact label {
   display: block;
@@ -108,6 +105,7 @@
 #contact .name_and_email {
   display: flex;
   justify-content: space-between;
+  overflow: auto;
 }
 
 #contact .box {
@@ -117,7 +115,7 @@
 #contact #name-box {
   flex-grow: 1;
   display: block;
-  width: 325px;
+  width: 100%;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -130,7 +128,7 @@
 #contact #email-box {
   flex-grow: 1;
   display: block;
-  width: 325px;
+  width: 100%;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
